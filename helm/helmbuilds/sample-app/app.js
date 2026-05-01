@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.end("Hello from Helm + Minikube 🚀");
+  res.end("Hello from Helm + Minikube Version upgrade  🚀");
 });
 
 server.listen(3000, () => {
